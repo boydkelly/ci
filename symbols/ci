@@ -18,7 +18,7 @@ xkb_symbols "civ" {
 
 
              // Second row
-             key <AD02>	{ [	z,		Z,		U04E1,		U04E0 	] };	// U025B = ɛ (small), U0190 = Ɛ (capital)
+             key <AD02>	{ [	z,		Z,		U0292,		U01B7 	] };	// U025B =   (small), U0190 =   (capital)
              key <AD03>	{ [	e,		E,		U025B,		U0190 	] };	// U025B = ɛ (small), U0190 = Ɛ (capital)
              key <AD06>	{ [	y,		Y,		U01B4,		U01B3	] };	// U0272 =   (small), U019D =   (capital)
              key <AD07>	{ [	u,		U,		U028B,		U01B2	] };	// U0272 =   (small), U019D =   (capital)

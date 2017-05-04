@@ -5678,18 +5678,8 @@
               <iso639Id>bci</iso639Id>
               <iso639Id>dyu</iso639Id>
               <iso639Id>fra</iso639Id>
+              <iso639Id>gxx</iso639Id>
               <iso639Id>sef</iso639Id>
-            </languageList>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>jula_qw</name>
-            <shortDescription>dyu</shortDescription>
-            <description>Jula (Côte d'Ivoire, Qwerty)</description>
-            <languageList>
-              <iso639Id>fra</iso639Id>
-              <iso639Id>dyu</iso639Id>
             </languageList>
           </configItem>
         </variant>

@@ -43,7 +43,7 @@ xkb_symbols "civ" {
 
 partial alphanumeric_keys
 xkb_symbols "jula_qw" {
-    include "fr(ca)"
+    include "us"
     include "level3(ralt_switch)" 
     include "ci(semicolon_switch)"
 
@@ -84,5 +84,4 @@ xkb_symbols "exclamation_switch" {
         };
         modifier_map Mod5       { ISO_Level3_Latch };
 };
-
 

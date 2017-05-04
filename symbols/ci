@@ -18,6 +18,7 @@ xkb_symbols "civ" {
 
 
              // Second row
+             key <AD02>	{ [	z,		Z,		U04E1,		U04E0 	] };	// U025B = ɛ (small), U0190 = Ɛ (capital)
              key <AD03>	{ [	e,		E,		U025B,		U0190 	] };	// U025B = ɛ (small), U0190 = Ɛ (capital)
              key <AD06>	{ [	y,		Y,		U01B4,		U01B3	] };	// U0272 =   (small), U019D =   (capital)
              key <AD07>	{ [	u,		U,		U028B,		U01B2	] };	// U0272 =   (small), U019D =   (capital)
@@ -30,10 +31,11 @@ xkb_symbols "civ" {
 
 
              // Fourth row
+	     key <AC03> { [     d, 		D, 		U0257, 		U018A   ] };	// SMALL LETTER D, CAPITAL LETTER D, SMALL LETTER D WITH HOOK, CAPITAL LETTER D WITH HOOK
              key <AB04>	{ [	v,		V,		U028B,		U01B2	] };	// U028B = ʋ (small), U01B2 = Ʋ (capital)
              key <AB05> { [	b,		B,		U0253,		U0181 	] };	// U0253 = ɓ (small), U0181 = Ɓ (capital)
              key <AB06>	{ [	n,		N,		U0272,		U019D	] };	// U0272 = ɲ (small), U019D = Ɲ (capital)
-             key <AB07>	{ [	,,		?,		U0242,		U0241	] };	// U0272 = ɲ (small), U019D = Ɲ (capital)
+             key <AB07>	{ [	comma,		question,	U0242,		U0241	] };	// U0272 = ɲ (small), U019D = Ɲ (capital)
 
 
 };

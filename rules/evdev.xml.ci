@@ -5673,20 +5673,12 @@
             <shortDescription>civ</shortDescription>
             <description>Côte d'Ivoire, Multilingual</description>
             <languageList>
+              <iso639Id>ata</iso639Id>
+              <iso639Id>ati</iso639Id>
               <iso639Id>bci</iso639Id>
               <iso639Id>dyu</iso639Id>
               <iso639Id>fra</iso639Id>
-            </languageList>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>jula</name>
-            <shortDescription>dyu</shortDescription>
-            <description>Jula (Côte d'Ivoire)</description>
-            <languageList>
-              <iso639Id>fra</iso639Id>
-              <iso639Id>dyu</iso639Id>
+              <iso639Id>sef</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -5698,16 +5690,6 @@
             <languageList>
               <iso639Id>fra</iso639Id>
               <iso639Id>dyu</iso639Id>
-            </languageList>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>baoule</name>
-            <shortDescription>bci</shortDescription>
-            <description>Baoulé (Côte d'Ivoire)</description>
-            <languageList>
-              <iso639Id>bci</iso639Id>
             </languageList>
           </configItem>
         </variant>

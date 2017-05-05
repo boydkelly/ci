@@ -5,9 +5,9 @@ xkbd files for French and Multilingual Keyboards for Côte d'Ivoire
 Author: Boyd Kelly bkelly AT coastsystems.net 
 
 #Files:
-*ci
-*evdev.xml.ci
-*evdev.lst.ci
+* ci
+* evdev.xml.ci
+* evdev.lst.ci
 
 # Installation:
 1. Copy the ci file to /usr/share/X11/xkb/symbols/ (Fedora/Red Hat)
@@ -24,26 +24,25 @@ and other local languages. Additional unicode characters are accessible in two w
 1. Pressing and holding the AltGr (+ Shift) key, and then the desired key in the table below.
 2. Pressing then releasing the exclamation key (on the azerty keyboard), and then pressing the appropriate key from the table below.
 
-Method 1 can be very inconvenient especially with caps and when the key is on the right hand side of the keyboard.  Method 2 allows much more fluid typing.  Press the exclamation key twice to produce an exclamation mark.
+Method 1 can be very inconvenient especially with caps and when the key is on the right hand side of the keyboard.  Method 2 allows much more fluid typing.  Press the exclamation key twice to produce an exclamation mark.::
 
-  ____                                    
- | 1 3| 1 = Shift,  3 = AltGr + Shift    (AltGr is the right side alt key)
- | 2 4| 2 = normal, 4 = AltGr
-  ¯¯¯¯                                  
-  ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ _______
- |    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | °  | +  | <--   |
- | ²  | &  | é ~| " #| ' {| ( [| - || è `| _ \| ç ^| à @| ) ]| = }|       |
-  ========================================================================
- | |<-  | A  | Z Ʒ| E Ɛ| R  | T  | Y Ƴ| U Ʋ| I Ɩ| O Ɔ| P  | ¨  | $  |   , |
- |  ->| | a  | z ʒ| e ɛ| r  | t  | y ƴ| u ʋ| i ɩ| o ɔ| p  | ^  ̌| £ ¤| <-' |
-  ===================================================================¬    |
- |       | Q  | S  | D Ɗ | F  | G Ŋ| H  | J  | K  | L  | M  | %  | µ  |   |
- | MAJ   | q  | s  | d ɗ | f  | g ŋ| h  | j  | k  | l  | m  | ù `| *  ́|   |
-  ========================================================================
- | ^   | >  | W  | X  | C  | V Ʋ| B Ɓ| N Ŋ| ?  | .  | /  | §  |     |     |
- | |   | <  | w  | x  | c  | v ʋ| b ɓ| n ŋ| ,  | ;  | : ¯| ! ~|     |     |
-  ========================================================================
- |      |      |      |                       |       |      |     |      |
- | Ctrl | Super| Alt  | Space    Nobreakspace | AltGr | Super|Menu | Ctrl |
-  ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯ ¯¯¯¯¯
-
+     ____  
+    | 1 3| 1 = Shift,  3 = AltGr + Shift    (AltGr is the right side alt key)
+    | 2 4| 2 = normal, 4 = AltGr
+     ¯¯¯¯  
+     ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ _______
+    |    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | °  | +  | <--   |
+    | ²  | &  | é ~| " #| ' {| ( [| - || è `| _ \| ç ^| à @| ) ]| = }|       |
+     ========================================================================
+    | |<-  | A  | Z Ʒ| E Ɛ| R  | T  | Y Ƴ| U Ʋ| I Ɩ| O Ɔ| P  | ¨  | $  |   , |
+    |  ->| | a  | z ʒ| e ɛ| r  | t  | y ƴ| u ʋ| i ɩ| o ɔ| p  | ^  ̌| £ ¤| <-' |
+     ===================================================================¬    |
+    |       | Q  | S  | D Ɗ | F  | G Ŋ| H  | J  | K  | L  | M  | %  | µ  |   |
+    | MAJ   | q  | s  | d ɗ | f  | g ŋ| h  | j  | k  | l  | m  | ù `| *  ́|   |
+     ========================================================================
+    | ^   | >  | W  | X  | C  | V Ʋ| B Ɓ| N Ŋ| ?  | .  | /  | §  |     |     |
+    | |   | <  | w  | x  | c  | v ʋ| b ɓ| n ŋ| ,  | ;  | : ¯| ! ~|     |     |
+     ========================================================================
+    |      |      |      |                       |       |      |     |      |
+    | Ctrl | Super| Alt  | Space    Nobreakspace | AltGr | Super|Menu | Ctrl |
+     ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯ ¯¯¯¯¯¯

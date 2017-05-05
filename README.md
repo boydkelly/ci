@@ -1,4 +1,4 @@
-[Français][README.fr.md]
+FR [Français](https://github.com/boydkelly/ci/blob/master/README.fr.md)
 xkbd files for French and Multilingual Keyboards for Côte d'Ivoire
 Author: Boyd Kelly bkelly AT coastsystems.net 
 
@@ -7,10 +7,10 @@ ci
 evdev.xml.ci
 evdev.lst.ci
 
-Installation:
-Copy the ci file to /usr/share/X11/xkb/symbols/
-Replace /usr/share/X11/xkb/rules/evdev.xml and evdev.lst with the ci versions
-Note:  These files will be overwritten on a system or xkb update
+# Installation:
+1. Copy the ci file to /usr/share/X11/xkb/symbols/ (Fedora/Red Hat)
+2. Replace /usr/share/X11/xkb/rules/evdev.xml and evdev.lst with the ci versions
+Note:  These files will be overwritten on a system or xkb update.  Alternatively backup the original evdev.* files, and replace them with symlinks to the evdev.*.ci versions.
 
 
 The Côte d'Ivoire French keyboard (ci) is an exact replica of the French national azerty keyboard.
@@ -19,8 +19,8 @@ characters for Côte d'Ivoire local languages. It has been made from thorough co
 and noteably Cameroon Keyboards. It may be used to type Attié, Abbey, Baoulé, French, Gueré, Jula, Senoufo, Yacouba, 
 and other local languages. Additional unicode characters are accessible in two ways.
 
-1) Pressing and holding the AltGr (+ Shift) key, and then the desired key in the table below.
-2) Pressing then releasing the exclamation key (on the azerty keyboard), and then pressing the appropriate key from the table below.
+1. Pressing and holding the AltGr (+ Shift) key, and then the desired key in the table below.
+2. Pressing then releasing the exclamation key (on the azerty keyboard), and then pressing the appropriate key from the table below.
 
 Method 1 can be very inconvenient especially with caps and when the key is on the right hand side of the keyboard.  Method 2 allows much more fluid typing.  Press the exclamation key twice to produce an exclamation mark.
 

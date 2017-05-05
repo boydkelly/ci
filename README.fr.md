@@ -1,19 +1,33 @@
+EN [English](https://github.com/boydkelly/ci/blob/master/README.md)
 xkbd files for French and Multilingual Keyboards for Côte d'Ivoire
-Author: Boyd Kelly bkelly AT coastsystems.net 
+Fichiers xkbd pour claviers français et multilingues de la Côte d'Ivoire
+Auteur: Boyd Kelly bkelly AT coastsystems.net 
 
-The Côte d'Ivoire French keyboard (ci) is an exact replica of the French national azerty keyboard.
-The Côte d'Ivoire Multilingual keyboard (civ) is based on the French azerty keyboard, but provides additional unicode
-characters for Côte d'Ivoire local languages. It has been made from thorough consultation of the Togo, Nigeria, Mali, 
-and noteably Cameroon Keyboards. It may be used to type Attié, Abbey, Baoulé, French, Gueré, Jula, Senoufo, Yacouba, 
-and other local languages. Additional unicode characters are accessible in two ways.
+Fichiers:
+ci
+evdev.xml.ci
+evdev.lst.ci
 
-1) Pressing and holding the AltGr (+ Shift) key, and then the desired key in the table below.
-2) Pressing then releasing the exclamation key (on the azerty keyboard), and then pressing the appropriate key from the table below.
+# Installation:
+1. Copier le fichier ci vers /usr/share/X11/xkb/symbols/ (Fedora/Red Hat)
+2. Remplacer les fichiers /usr/share/X11/xkb/rules/evdev.xml et evdev.lst avec les versions ci.
 
-Method 1 can be very inconvenient especially with caps and when the key is on the right hand side of the keyboard.  Method 2 allows much more fluid typing.  Press the exclamation key twice to produce an exclamation mark.
+Notez:  Ces fichiers seront écrasés lors de mise-à-jour du système ou xkb. Il est aussi possible de sauvegarder les fichiers originaux evdev.* et de créer des liens symboliques vers les version evdev.*.ci.
+
+Le clavier français de Côte d'Ivoire est identique au clavier national français azerty.
+
+Le clavier multilingue de Côte d'Ivoire (civ) est basé sur le clavier français azerty, mais inclut des symboles unicode supplémentaires pour les langues localesde la Côte d'Ivoire.  On a consulté les claviers de Togo, Nigeria, Mali et en particulier le Cameroon pour faire le faire.  Il peut être utlisé pour écrire l'Attié, Abé, Baoulé, Français, Gueré, Jula, Senoufo, Yacouba, et d'autres langues locales.
+
+Les charactéres unicode sont disponible de deux façons:
+
+1. Appuyer et tenir la touche AltGr et ensuite la touche appropriée de la table ci dessous.
+
+2. Appuyer la touch exclamation (!, sur le clavier azerty), relache, et ensuite appuyer la touche appropriée de la table ci dessous.
+
+La première méthode peut être difficile surtout avec les majuscules et quand la touche en question se trouve sur la droite du clavier.  La deuxième méthod permet de tapper avec plus de fluidité.  Appuyer la touch exclamation (!) deux fois pour insérer la mark d'exclamation.
 
   ____                                    
- | 1 3| 1 = Shift,  3 = AltGr + Shift    (AltGr is the right side alt key)
+ | 1 3| 1 = Maj,  3 = AltGr + Maj    (AltGr est du côte droit)
  | 2 4| 2 = normal, 4 = AltGr
   ¯¯¯¯                                  
   ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ _______
@@ -30,6 +44,6 @@ Method 1 can be very inconvenient especially with caps and when the key is on th
  | |   | <  | w  | x  | c  | v ʋ| b ɓ| n ŋ| ,  | ;  | : ¯| ! ~|     |     |
   ========================================================================
  |      |      |      |                       |       |      |     |      |
- | Ctrl | Super| Alt  | Space    Nobreakspace | AltGr | Super|Menu | Ctrl |
+ | Ctrl | Super| Alt  | Espace   Nobreakspace | AltGr | Super|Menu | Ctrl |
   ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯ ¯¯¯¯¯
 

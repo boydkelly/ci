@@ -13,7 +13,7 @@ Author: Boyd Kelly bkelly AT coastsystems.net
 1. Copy the ci file to /usr/share/X11/xkb/symbols/ (Fedora/Red Hat)
 2. Replace /usr/share/X11/xkb/rules/evdev.xml and evdev.lst with the ci versions
 Note:  These files will be overwritten on a system or xkb update.  Alternatively backup the original evdev.* files, and replace them with symlinks to the evdev.*.ci versions.
-
+3. Log off and back on. Go to Settings and select either the French Côte d'Ivoire or Côte d'Ivoire Multilingual keyboard.
 
 The Côte d'Ivoire French keyboard (ci) is an exact replica of the French national azerty keyboard.
 The Côte d'Ivoire Multilingual keyboard (civ) is based on the French azerty keyboard, but provides additional unicode

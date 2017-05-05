@@ -12,6 +12,7 @@ Auteur: Boyd Kelly bkelly AT coastsystems.net
 # Installation:
 1. Copier le fichier ci vers /usr/share/X11/xkb/symbols/ (Fedora/Red Hat)
 2. Remplacer les fichiers /usr/share/X11/xkb/rules/evdev.xml et evdev.lst avec les versions ci.
+3. Redémarrer la session.  Aller aux Paramètres et selectionner le clavier Français Côte d'Ivoire, ou Côte d'Ivoire Multilingue.
 
 Notez:  Ces fichiers seront écrasés lors de mise-à-jour du système ou xkb. Il est aussi possible de sauvegarder les fichiers originaux evdev.* et de créer des liens symboliques vers les version evdev.*.ci.
 

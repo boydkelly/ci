@@ -1,5 +1,17 @@
+[Français][README.fr.md]
 xkbd files for French and Multilingual Keyboards for Côte d'Ivoire
 Author: Boyd Kelly bkelly AT coastsystems.net 
+
+Files:
+ci
+evdev.xml.ci
+evdev.lst.ci
+
+Installation:
+Copy the ci file to /usr/share/X11/xkb/symbols/
+Replace /usr/share/X11/xkb/rules/evdev.xml and evdev.lst with the ci versions
+Note:  These files will be overwritten on a system or xkb update
+
 
 The Côte d'Ivoire French keyboard (ci) is an exact replica of the French national azerty keyboard.
 The Côte d'Ivoire Multilingual keyboard (civ) is based on the French azerty keyboard, but provides additional unicode

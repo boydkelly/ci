@@ -1,12 +1,13 @@
 FR [Français](https://github.com/boydkelly/ci/blob/master/README.fr.md)
 
 xkbd files for French and Multilingual Keyboards for Côte d'Ivoire
+
 Author: Boyd Kelly bkelly AT coastsystems.net 
 
 #Files:
-ci
-evdev.xml.ci
-evdev.lst.ci
+*ci
+*evdev.xml.ci
+*evdev.lst.ci
 
 # Installation:
 1. Copy the ci file to /usr/share/X11/xkb/symbols/ (Fedora/Red Hat)

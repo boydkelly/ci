@@ -1,13 +1,13 @@
 EN [English](https://github.com/boydkelly/ci/blob/master/README.md)
 
-xkbd files for French and Multilingual Keyboards for Côte d'Ivoire
 Fichiers xkbd pour claviers français et multilingues de la Côte d'Ivoire
+
 Auteur: Boyd Kelly bkelly AT coastsystems.net 
 
 # Fichiers:
-ci
-evdev.xml.ci
-evdev.lst.ci
+*ci
+*evdev.xml.ci
+*evdev.lst.ci
 
 # Installation:
 1. Copier le fichier ci vers /usr/share/X11/xkb/symbols/ (Fedora/Red Hat)
@@ -26,7 +26,7 @@ Les charactéres unicode sont disponible de deux façons:
 2. Appuyer la touch exclamation (!, sur le clavier azerty), relache, et ensuite appuyer la touche appropriée de la table ci dessous.
 
 La première méthode peut être difficile surtout avec les majuscules et quand la touche en question se trouve sur la droite du clavier.  La deuxième méthod permet de tapper avec plus de fluidité.  Appuyer la touch exclamation (!) deux fois pour insérer la mark d'exclamation.
-
+`
   ____                                    
  | 1 3| 1 = Maj,  3 = AltGr + Maj    (AltGr est du côte droit)
  | 2 4| 2 = normal, 4 = AltGr
@@ -47,4 +47,4 @@ La première méthode peut être difficile surtout avec les majuscules et quand 
  |      |      |      |                       |       |      |     |      |
  | Ctrl | Super| Alt  | Espace   Nobreakspace | AltGr | Super|Menu | Ctrl |
   ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯ ¯¯¯¯¯
-
+`

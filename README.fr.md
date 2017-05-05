@@ -1,9 +1,10 @@
 EN [English](https://github.com/boydkelly/ci/blob/master/README.md)
+
 xkbd files for French and Multilingual Keyboards for Côte d'Ivoire
 Fichiers xkbd pour claviers français et multilingues de la Côte d'Ivoire
 Auteur: Boyd Kelly bkelly AT coastsystems.net 
 
-Fichiers:
+# Fichiers:
 ci
 evdev.xml.ci
 evdev.lst.ci

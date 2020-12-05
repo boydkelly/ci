@@ -14,11 +14,11 @@ xkb_symbols "civ" {
     name[Group1]= "Côte d'Ivoire (Multilingual)";
 
     	     // First row
-             key <TLDE>	{ [    asciitilde,     twosuperior,    U0304 ]	};
+             key <TLDE>	{ [    asciitilde,     twosuperior,    U030C ]	};
              key <AE02>	{ [    eacute,         2,   	 U0301,    oneeighth ]	};
-             key <AE04>	{ [apostrophe,         4,        U2018,       braceleft ]	};
-             key <AE07>	{ [    egrave,          7,        U0300, seveneighths ]	};
-    	    key <AE12>	{ [     equal,       plus,   U2019,  braceright ]	};
+             key <AE04>	{ [    apostrophe,     4,        U2018,       braceleft ]	};
+             key <AE07>	{ [    egrave,         7,        U0300, seveneighths ]	};
+             key <AE12>	{ [    equal,       plus,   U2019,  braceright ]	};
 
              // Second row
              key <AD03>	{ [	e,		E,		U025B,		U0190 	] };	// U025B = ɛ (small), U0190 = Ɛ (capital)
@@ -28,7 +28,7 @@ xkb_symbols "civ" {
              key <AD09>	{ [	o,		O,		U0254,		U0186 	] };	// U0254 = ɔ (small), U0186 = Ɔ (capital)
 
              // Third row
-	     key <AC03> { [     d, 		D, 		U0257, 		U018A   ] };	// d, D, d WITH HOOK, D WITH HOOK
+	           key <AC03> { [ d, 		D, 		U0257, 		U018A   ] };	// d, D, d WITH HOOK, D WITH HOOK
              key <AC05>	{ [	g,		G,		U014B,		U014A 	] };	// U014B = ŋ (small), U014A = Ŋ (capital)
              key <AC07>	{ [	j,		J,		U0292,		U01B7 	] };	// U025B =   (small), U0190 =   (capital)
 
@@ -58,18 +58,19 @@ xkb_symbols "civ_qw" {
              key <AD09>	{ [	o,		O,		U0254,		U0186 	] };	// U0254 = ɔ (small), U0186 = Ɔ (capital)
 
              // Third row
-	     key <AC03> { [     d, 		D, 		U0257, 		U018A   ] };	// d, D, d WITH HOOK, D WITH HOOK
+      	     key <AC03> { [ d, 		D, 		U0257, 		U018A   ] };	// d, D, d WITH HOOK, D WITH HOOK
              key <AC05>	{ [	g,		G,		U014B,		U014A 	] };	// U014B = ŋ (small), U014A = Ŋ (capital)
              key <AC07>	{ [	j,		J,		U0292,		U01B7 	] };	// U025B =   (small), U0190 =   (capital)
+             key <AC11>	{ [    dead_grave,      dead_grave,     braceleft,      U2018 ]	};
 
              // Fourth row
              key <AB04>	{ [	v,		V,		U028B,		U01B2	] };	// U028B = ʋ (small), U01B2 = Ʋ (capital)
              key <AB05> { [	b,		B,		U0253,		U0181 	] };	// U0253 = ɓ (small), U0181 = Ɓ (capital)
              key <AB06>	{ [	n,		N,		U0272,		U019D	] };	// U0272 = ɲ (small), U019D = Ɲ (capital)
-             key <AB08>	{ [    comma, apostrophe,    U0304 ]	};
-             key <AB10>	{ [    eacute,     Eacute,   U0301 ]	};
+             key <AB08>	{ [    comma, apostrophe,    U030C ]	}; // U030C = ̌
+             key <AB09>	{ [    period, period,    U0300 ]	}; // U0300 = grave combinator
+             key <AB10>	{ [    eacute,     Eacute,   U0301 ]	}; // U0301 = acute combinator
 
-             key <AC11>	{ [    dead_grave,      dead_grave,     braceleft,      U2018 ]	};
              key <BKSL>	{ [    less,            greater,        braceright,     U2019 ]	};
 
 };
